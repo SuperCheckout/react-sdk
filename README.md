@@ -1,4 +1,4 @@
-# supercheckout
+# SuperCheckout
 
 > Made with create-react-library
 
