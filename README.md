@@ -1,4 +1,4 @@
-# supercheckout
+# SuperCheckout
 
 > Made with create-react-library
 
@@ -15,12 +15,12 @@ npm install --save supercheckout
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'supercheckout'
+import SuperCheckout from 'supercheckout'
 import 'supercheckout/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <SuperCheckout projectId={'abdc'} show={true} />
   }
 }
 ```
