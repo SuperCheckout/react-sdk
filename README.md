@@ -15,7 +15,7 @@ npm install --save @supercheckout/react-sdk
 ```tsx
 import React, { Component } from 'react'
 
-import SuperCheckout from 'supercheckout'
+import SuperCheckout from "@supercheckout/react-sdk";
 
 class Example extends Component {
   render() {
