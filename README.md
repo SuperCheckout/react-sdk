@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save supercheckout
+npm install --save @supercheckout/react-sdk
 ```
 
 ## Usage
@@ -16,15 +16,14 @@ npm install --save supercheckout
 import React, { Component } from 'react'
 
 import SuperCheckout from 'supercheckout'
-import 'supercheckout/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <SuperCheckout projectId={'abdc'} show={true} />
+    return <SuperCheckout projectId={'YOUR_PROJECT_ID'} show={true} />
   }
 }
 ```
 
 ## License
 
-MIT © [Nikhil-Kulkarni](https://github.com/Nikhil-Kulkarni)
+MIT © [SuperCheckout](https://github.com/Supercheckout)
