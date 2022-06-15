@@ -4,15 +4,15 @@
   "description": "Buy NFTs with a credit card",
   "author": "Nikhil-Kulkarni",
   "license": "MIT",
-  "repository": "https://github.com/SuperCheckout/react-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperCheckout/react-sdk"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
     "node": ">=10"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/SuperCheckout"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
